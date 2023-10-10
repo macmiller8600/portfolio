@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url(YoungSerif-Regular.ttf) format('truetype');
+}
+
+body {
+    background: #d6f0f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: "Young Serif", Arial, sans-serif;
+}
+
+nav {
+    background: #0d51e2;
+    text-align: center;
+    padding: 10px;
+    font-family: "Young Serif", Arial, sans-serif;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Young Serif", Arial, sans-serif;
+    
+}
+
+p {
+    margin: 15px;
+    font-size: 18px;
+}
+
+ul, ol {
+    margin-left: 30px;
+}
+
+a {
+    color: black; /*
+@font-face {
+    font-family: 'Young Serif';
+    src: url(YoungSerif-Regular.ttf) format('truetype');
+}
+
+body {
+    background: #d6f0f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: "Young Serif", Arial, sans-serif;
+}
+
+nav {
+    background: #0d51e2;
+    text-align: center;
+    padding: 10px;
+    font-family: "Young Serif", Arial, sans-serif;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Young Serif", Arial, sans-serif;
+    
+}
+
+h2 {
+    margin-left: 60px; 
+    margin-right: 90px; 
+
+}
+
+
+p {
+    margin: 15px;
+    font-size: 18px;
+}
+
+ul, ol {
+    margin-left: 30px;
+}
+
+a {
+    color: black; /*

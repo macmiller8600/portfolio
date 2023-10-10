@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" type="text/css" href="styles.css">
+                    <style>
+        body {
+            text-align: center; 
+        }
+
+        header {
+            text-align: center; 
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; 
+        }
+
+        .image {
+            width: 45%; 
+            margin: 10px; 
+            border: 2px solid #000; 
+            padding: 10px; 
+            box-sizing: border-box; 
+            text-align: center; 
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto; 
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Gallery</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contactinformation.html">Contact Information</a>
+            </nav>
+        </header>
+        <main>
+            <div class="intro-box">
+                <p>Welcome to my gallery! Check out the game I made!:</p>
+                <a href="nigglesjourney.html">Play the Game</a>
+            </div>
+            <h2>My Gallery</h2>
+            <div class="image-gallery">
+                <div class="image">
+                    <img src="carwash.png" alt="Car Wash Poster">
+                        <p>Sig Tau Car Wash Flyer</p>
+                </div>
+                <div class="image">
+                    <img src="gorge.png" alt="Gorge Walk Flyer">
+                        <p>Sig Tau Gorge Walk Flyer</p>
+                </div>
+                <div class="image">
+                    <img src="gamenight.png" alt="Game Night Flyer">
+                        <p>Sig Tau Game Night Flyer</p>
+                </div>
+                <div class="image">
+                    <img src="rushposter.JPG" alt="Rush Poster">
+                        <p>Sig Tau Rush Schedule</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
